@@ -16,14 +16,14 @@ checkpointing and restart.
 1. Clone the repo in the provided link to some local directory.
 2. Open a terminal in your local dmtcp folder. If you cloned it from home you will most probably find it thier, but sometimes it can be hidden, so make sure to view hidden files and folders.
 3. Run the following commands in terminal:
-  - ./configure
-  - make
-  - make install
+    - ./configure
+    - make
+    - make install
 4. Those commands should install the library in your "/usr/local/include" and enable you to include "dmtcp.h" in your projects.
 5. Some times an include error might occur, if this happend you need tp:
-  - go to your include folder using: cd /usr/local/include
-  - open the "dmtcp.h" to edit using: sudo nano dmtcp.h
-  - now change #include "dmtcp/version.h" to #include "version.h"
+    - go to your include folder using: cd /usr/local/include
+    - open the "dmtcp.h" to edit using: sudo nano dmtcp.h
+    - now change #include "dmtcp/version.h" to #include "version.h"
 6. Now you should have a working "dmtcp.h" that you can include in your project and gives you access to the DMTCP library.
 
     -- For any further clarification see this install guide: https://github.com/dmtcp/dmtcp/blob/master/INSTALL.md --
